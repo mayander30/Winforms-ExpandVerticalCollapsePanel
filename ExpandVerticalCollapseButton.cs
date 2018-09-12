@@ -10,7 +10,7 @@ namespace pControlsDev.Headers.Vertical
     /// Button with two states: expanded/collapsed
     /// </summary>
     /// 
-    [ToolboxItem(false)]
+    [ToolboxItem(true)]
     public partial class ExpandVerticalCollapseButton : UserControl
     {
         /// <summary>

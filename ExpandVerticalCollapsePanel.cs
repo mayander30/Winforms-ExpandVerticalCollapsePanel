@@ -32,7 +32,7 @@ namespace pControlsDev.Headers.Vertical
         /// <summary>
         /// Height of panel in expanded state
         /// </summary>
-        [Category("ExpandCollapsePanel")]
+        [Category("ExpandCollapseVerticalPanel")]
         [Description("Height of panel in expanded state.")]
         [Browsable(true)]
         public int ExpandedWidth
@@ -50,6 +50,8 @@ namespace pControlsDev.Headers.Vertical
 
         [Browsable(false)]
         public Color _backheader { get; set; }
+
+        [Category("ExpandCollapseVerticalPanel")]
         public Color _Background_header 
         { 
             get 
@@ -66,6 +68,8 @@ namespace pControlsDev.Headers.Vertical
 
         [Browsable(false)]
         public Color _lblHColor { get; set; }
+
+        [Category("ExpandCollapseVerticalPanel")]
         public Color _LblHeaderColor
         {
             get
@@ -83,7 +87,7 @@ namespace pControlsDev.Headers.Vertical
         /// Set flag for expand or collapse panel content
         /// (true - expanded, false - collapsed)
         /// </summary>
-        [Category("ExpandCollapsePanel")]
+        [Category("ExpandCollapseVerticalPanel")]
         [Description("Expand or collapse panel content.")]
         [Browsable(true)]
         public bool IsExpanded
@@ -101,6 +105,7 @@ namespace pControlsDev.Headers.Vertical
         public String TextHeader { get; set; }
         
         [Browsable(true)]
+        [Category("ExpandCollapseVerticalPanel")]
         public override string Text
         {
             get
